@@ -27872,7 +27872,6 @@ return jQuery;
 
             return lastIndex !== index ? html + str.substring(lastIndex, index) : html;
         }
-
 // end code copied and modified from escape-html
 
         /**
@@ -32211,7 +32210,7 @@ return jQuery;
                     React.createElement("nav", {className: "navbar navbar-default"},
                         React.createElement("div", {className: "container-fluid"},
                             React.createElement("a", {href: "/", className: "navbar-brand"},
-                                React.createElement("img", {src: "images/pluralsight-logo.png"})
+                                React.createElement("img", {src: "images/logo.png"})
                             ),
                             React.createElement("ul", {className: "nav navbar-nav"},
                                 React.createElement("li", null, React.createElement("a", {href: "/"}, "Home")),
@@ -32274,6 +32273,7 @@ $ = jQuery = require('jquery');
                     }
                     return (
                         React.createElement("div", null,
+                            React.createElement(Header, null),
                             React.createElement(Child, null)
                         )
                     );

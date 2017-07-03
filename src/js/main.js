@@ -23,6 +23,7 @@ var Header = require('./component/common/header');
             }
             return (
                 <div>
+                    <Header/>
                     <Child/>
                 </div>
             );
